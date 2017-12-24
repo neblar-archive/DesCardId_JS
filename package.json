@@ -1,0 +1,42 @@
+{
+  "name": "descardid",
+  "version": "1.0.0",
+  "description": "DesCardId (of Card Identification) is a php library used for identifying credit card numbers in text.",
+  "author": {
+    "name": "Rijul Gupta",
+    "email": "rijulg@neblar.com",
+    "url": "http://neblar.com"
+  },
+  "copyright": "Neblar Technologies",
+  "license": "MIT",
+  "keywords": [
+    "neblar",
+    "descardid",
+    "credit card",
+    "credit card number",
+    "identification"
+  ],
+  "scripts": {
+    "test": "gulp build --type=test && mocha tests",
+    "info": "echo 'DesCardId v1.0.0'",
+    "build": "gulp build",
+    "build-dev": "gulp build --type=dev",
+    "build-test": "gulp build --type=test"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^1.8.9",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "mocha": "^4.0.1",
+    "pump": "^2.0.0",
+    "run-sequence": "^2.2.0"
+  }
+}
