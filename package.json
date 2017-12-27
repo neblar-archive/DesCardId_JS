@@ -1,5 +1,5 @@
 {
-  "name": "descardid",
+  "name": "@neblartechnologies/descardid",
   "version": "1.0.0",
   "description": "DesCardId (of Card Identification) is a php library used for identifying credit card numbers in text.",
   "author": {
