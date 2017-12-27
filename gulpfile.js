@@ -54,12 +54,12 @@ gulp.task('build', function(){
         ''].join('\n');
 
     switch(gutil.env.type){
-        case 'dev'          :   dest = dest+"/dev/v"+pkg.version;
+        case 'dev'          :   dest = dest+"/dev";
             break;
         case 'test'         :   dest = dest+"/test";
             break;
         case 'production'   :
-        default             :   dest = dest+"/production/v"+pkg.version;
+        default             :   dest = dest+"/production";
             gutil.env.type = 'production';
     }
 

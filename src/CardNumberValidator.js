@@ -101,8 +101,8 @@ class CardNumberValidator{
      * @param  {number} threshold the tolerable level of uncertainty
      * @return {boolean} true if we are sure, false otherwise
     */
-    isSurelyACreditCardNumber(number, threshold = -1){
-        if(threshold === -1){
+    isSurelyACreditCardNumber(number, threshold = null){
+        if(threshold === null){
             threshold = this.DEFAULT_THRESHOLD;
         }
 
